@@ -2035,7 +2035,16 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
 /* Image */
+.justin-gif {
+	height: 50%;
+	width: 100%;
+}
+
+.gif-description{
+	padding-bottom: 1vw;
+}
 .project-image:hover {
 	opacity: 0.2;
 }

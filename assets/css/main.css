@@ -2036,6 +2036,10 @@ input, select, textarea {
 		}
 
 /* Image */
+.justin-gif {
+	height: 50%;
+	width: 100%;
+}
 .project-image:hover {
 	opacity: 0.2;
 }

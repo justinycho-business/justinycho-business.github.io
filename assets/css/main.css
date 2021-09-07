@@ -72,6 +72,20 @@ input, select, textarea {
 	appearance: none;
 }
 
+.div-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3vh;
+}
+
+.div-center-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3vh;
+}
+
 /* Basic */
 
 	html {
@@ -2172,7 +2186,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 

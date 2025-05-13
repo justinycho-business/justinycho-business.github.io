@@ -2493,6 +2493,12 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+	.blue {
+		background-color: hwb(216 25% 11%);
+		border-color: hwb(216 25% 11%);
+		color: white !important;
+	}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -3252,3 +3258,41 @@ input, select, textarea {
 			}
 
 	}
+
+/* Tab Navigation */
+.tab-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    gap: 1em;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: solid 2px #efefef;
+    border-radius: 0.35em;
+    color: #787878;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.75em 1.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.tab-button:hover {
+    border-color: #49bf9d;
+    color: #49bf9d;
+}
+
+.tab-button.active {
+    background-color: #49bf9d;
+    border-color: #49bf9d;
+    color: #ffffff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
